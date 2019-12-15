@@ -21,7 +21,7 @@ module("Acceptance | list rentals", function(hooks) {
     await click(".menu-about");
     assert.equal(currentURL(), "/contact", "should navigate to contact");
   });
-  test("should list avaialble rentals", async function(assert) {});
-  test("should filtet the list of rentals by city", async function(assert) {});
-  test("should show details for a selected rentals", async function(assert) {});
+  // test("should list avaialble rentals", async function(assert) {});
+  // test("should filtet the list of rentals by city", async function(assert) {});
+  // test("should show details for a selected rentals", async function(assert) {});
 });
