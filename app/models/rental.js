@@ -1,11 +1,13 @@
-import { Model, attr } from "@ember-data/model";
+// import { Model, attr } from "@ember-data/model";
+import DS from "ember-data";
+const { Model } = DS;
 
 export default Model.extend({
-  title: attr(),
-  owner: attr(),
-  city: attr(),
-  category: attr(),
-  image: attr(),
-  bedrooms: attr(),
-  description: attr()
+  title: DS.attr(),
+  owner: DS.attr(),
+  city: DS.attr(),
+  category: DS.attr(),
+  image: DS.attr(),
+  bedrooms: DS.attr(),
+  description: DS.attr()
 });
